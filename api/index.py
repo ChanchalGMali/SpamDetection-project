@@ -1,8 +1,7 @@
 import os
 import sys
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-sys.path.append(BASE_DIR)
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 os.environ.setdefault(
     "DJANGO_SETTINGS_MODULE",
